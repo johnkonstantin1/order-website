@@ -15,11 +15,12 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
+        <p>_______________________________________________________________________________________________________________________________________________________________________________________________________</p>
         <p className="footer-subscription-heading">
-          Join our exclusive membership to receive the latest news and trends
+          Contact us to discuss a cooperation
         </p>
         <p className="footer-subscription-text">
-          You can unsubscribe at any time.
+          
         </p>
         <div className="input-areas">
           <form>
@@ -29,7 +30,7 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <Button buttonStyle="btn--outline">Contact Us</Button>
           </form>
         </div>
       </section>
@@ -73,10 +74,10 @@ function Footer() {
           <div className="footer-logo">
             <Link to="/" className="social-logo">
               <MdFingerprint className="navbar-icon" />
-              LAVISH
+              COMPANY
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">COMPANY © 2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
