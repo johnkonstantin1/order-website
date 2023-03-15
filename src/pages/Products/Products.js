@@ -7,7 +7,7 @@ function Products() {
         <div className='card-container'>
             <div className='card'>
                 <div className='card-background'>
-                    <img src='/images/flowers1.jpg'/>
+                    <img className='card-background' src='/images/japan.jpg'/>
                 </div>
                 <div className='content'>
                     <div className='card-category'>3D design</div>
@@ -16,7 +16,7 @@ function Products() {
             </div>
             <div className='card'>
                 <div className='card-background'>
-                    <img src='/images/japan1.jpg'/>
+                    <img className='card-background' src='/images/japan1.jpg'/>
                 </div>
                 <div className='content'>
                     <div className='card-category'>3D design</div>
@@ -25,7 +25,7 @@ function Products() {
             </div>
             <div className='card'>
                 <div className='card-background'>
-                    <img src='/images/japan2.jpg'/>
+                    <img className='card-background' src='/images/japan2.jpg'/>
                 </div>
                 <div className='content'>
                     <div className='card-category'>3D design</div>
