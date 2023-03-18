@@ -73,7 +73,7 @@ span {
 
 
   .navbar {
-    background: #1c2237;
+    background: rgb(47, 79, 79);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@ span {
   }
   
   .navbar-logo {
-    color: #fff;
+    color: #ADD8E6;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -133,7 +133,7 @@ span {
   }
   
   .nav-links {
-    color: #fff;
+    color: #ADD8E6;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -142,7 +142,7 @@ span {
   }
   
   .fa-bars {
-    color: #fff;
+    color: #ADD8E6;
   }
   
   .menu-icon {
@@ -182,7 +182,7 @@ span {
     }
   
     .nav-links:hover {
-      color: #f00946;
+      color: #F5FFFA;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }
@@ -213,7 +213,7 @@ span {
     }
   
     .fa-times {
-      color: #fff;
+      color: #ADD8E6;
       font-size: 2rem;
     }
   

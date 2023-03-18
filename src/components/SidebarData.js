@@ -17,15 +17,15 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: "News",
-        path: "/news",
-        icon: <FaIcons.FaNewspaper/>,
-        cName: 'nav-text'
-    },
-    {
         title: "Contacts",
         path: "/contacts",
         icon: <AiIcons.AiOutlineContacts/>,
+        cName: 'nav-text'
+    },
+    {
+        title: "Blog",
+        path: "/blogList",
+        icon: <FaIcons.FaNewspaper/>,
         cName: 'nav-text'
     },
 ]

@@ -19,7 +19,7 @@ body {
  min-height: 100%;
  align-items: center;
  justify-content: center;
- background-color: #1c2237;
+ background-color: rgb(47, 79, 79);
  color: #fff;
  font-size: large;
 }
@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     /* background-color: #1a1e23; */
-    background-color: #1c2237;
+    background-color: rgb(47, 79, 79);
     padding-top: 50px;
 }
 
@@ -119,3 +119,8 @@ body {
       margin-bottom: 30px;
     }
   }
+
+
+
+
+  

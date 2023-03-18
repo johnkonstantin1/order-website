@@ -38,6 +38,37 @@ function Products() {
           </div>
         </div>
       </section>
+      <section className="hero-section">
+        <div className="card-container">
+          <div className="card">
+            <div>
+              <img className="card-background" src="/images/johny2.jpg" />
+            </div>
+            <div className="content">
+              <div className="card-category">3D design</div>
+              <h1>Great workout</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img className="card-background" src="/images/johny2.jpg" />
+            </div>
+            <div className="content">
+              <div className="card-category">3D design</div>
+              <h1>Fast solution</h1>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <img className="card-background" src="/images/johny2.jpg" />
+            </div>
+            <div className="content">
+              <div className="card-category">3D design</div>
+              <h1>Helpfull team</h1>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

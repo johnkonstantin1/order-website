@@ -9,7 +9,7 @@
 
 }
 
-.home .news .products {
+.home .news .products .blogList {
     display: flex;
     height: 90vh;
     align-items: center;

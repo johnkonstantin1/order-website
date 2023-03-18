@@ -15,13 +15,13 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p>_______________________________________________________________________________________________________________________________________________________________________________________________________</p>
+        <p>
+          _______________________________________________________________________________________________________________________________________________________________________________________________________
+        </p>
         <p className="footer-subscription-heading">
           Contact us to discuss a cooperation
         </p>
-        <p className="footer-subscription-text">
-          
-        </p>
+        <p className="footer-subscription-text"></p>
         <div className="input-areas">
           <form>
             <input
