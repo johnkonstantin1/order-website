@@ -28,53 +28,15 @@ function BlogDetails() {
     getEntryById();
   }, []);
 
-  //   return (
-  //     <div id="layout" className="container-post">
-  //       <div className="">
-  //         <div>
-  //           <div className="posts">
-  //             <Link to="/blogList">Blog Posts</Link>
-  //             {singleBlogPost?.items?.map((post) => (
-  //               <section className="post" key={singleBlogPost.sys.id}>
-  //                 <header className="post-header">
-  //                   <img
-  //                     src={singleBlogPost?.fields?.blogImage?.fields?.file?.url}
-  //                     title=""
-  //                     alt={singleBlogPost?.fields?.title}
-  //                     width="578"
-  //                     height="291"
-  //                   />
-  //                   <h2 className="post-title">
-  //                     {singleBlogPost?.fields?.title}
-  //                   </h2>
-  //                   <p className="post-meta">
-  //                     By{" "}
-  //                     <a href="https://thecodeangle.com/" className="post-author">
-  //                       {singleBlogPost?.fields?.blogAuthor}
-  //                     </a>{" "}
-  //                     Date <span></span>
-  //                     <small>{singleBlogPost?.fields?.createdDate}</small>
-  //                   </p>
-  //                 </header>
-  //                 <div className="post-description">
-  //                   <p>{singleBlogPost?.fields?.postContent}</p>
-  //                 </div>
-  //               </section>
-  //             ))}
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
     return (
-      <section className="hero-section">
-        <div id="layout" className="container-post">
-          <div className="content">
+      <section className="hero-section-solo">
+        <div id="layout" className="container-solo">
+          <div className="content-solo">
             <div>
               <div className="posts">
-                <Link to="/blogList" className="content-subhead">
+                {/* <Link to="/blogList" className="content-subhead">
                   Blog Posts
-                </Link>
+                </Link> */}
 
                 <section className="post">
                   <header className="post-header">
@@ -118,43 +80,6 @@ function BlogDetails() {
         </div>
       </section>
     );
-//   return (
-//     <div id="layout" className="container-post">
-//       <div className="">
-//         <div>
-//           <div className="posts">
-//             {singleBlogPost?.items?.map((post) => (
-//               <section className="post" >
-//                 <header className="post-header">
-//                   <img
-//                     src={singleBlogPost?.fields?.blogImage?.fields?.file?.url}
-//                     title=""
-//                     alt={singleBlogPost?.fields?.title}
-//                     width="578"
-//                     height="291"
-//                   />
-//                   <h2 className="post-title">
-//                     {singleBlogPost?.fields?.blogTitle}
-//                   </h2>
-//                   <p className="post-meta">
-//                     By{" "}
-//                     <a href="https://thecodeangle.com/" className="post-author">
-//                       {singleBlogPost?.fields?.blogAuthor}
-//                     </a>{" "}
-//                     Date <span></span>
-//                     <small>{singleBlogPost?.fields?.createdDate}</small>
-//                   </p>
-//                 </header>
-//                 <div className="post-description">
-//                   <p>{singleBlogPost?.fields?.postContent}</p>
-//                 </div>
-//               </section>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
 }
 
 export default BlogDetails;

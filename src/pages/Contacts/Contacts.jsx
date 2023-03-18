@@ -9,7 +9,7 @@ const FormContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to top, #1c2237, #2d4596);
+  background: linear-gradient(to bottom, #1c2237, rgb(47, 79, 79));
 `;
 
 const FormWrapper = styled.div`
@@ -21,7 +21,7 @@ const FormWrapper = styled.div`
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 800px;
-  background: linear-gradient(to bottom, #1c2237, #2d4596);
+  background: linear-gradient(to bottom, #1c2237, rgb(47, 79, 79));
   color: white;
 `;
 

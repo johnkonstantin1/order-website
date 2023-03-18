@@ -73,7 +73,7 @@ span {
 
 
   .navbar {
-    background: rgb(47, 79, 79);
+    background: linear-gradient(to bottom, #1c2237, rgb(47, 79, 79));;
     height: 80px;
     display: flex;
     justify-content: center;
