@@ -28,13 +28,12 @@ function BlogList() {
       <div className="">
         <div>
           <div className="posts">
-            <h1 className="content-subhead"></h1>
 
             {blogPosts?.items?.map((post)=>(
             <section className="post" key={post.sys.id}>
               <header className="post-header">
                 <img src={post.fields.blogImage.fields.file.url} title="" alt={post.fields.title} width="578" height="291" />
-                <h2 className="post-title">{post.fields.title}</h2>
+                <h2 className="post-title">{post.fields.blogTitle}</h2>
                 <p className="post-meta">
                   By{" "}
                   <a
@@ -49,7 +48,7 @@ function BlogList() {
                 <p>
                     {post.fields.blogSummary}
                 </p>
-                <Link to="/" className="button button1">
+                <Link to={`/blogDetails/${post.sys.id}`} className="button button1">
                   Read more
                 </Link>
               </div>
