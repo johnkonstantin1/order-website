@@ -14,6 +14,7 @@ function HeroSection({
   img,
   alt,
   imgStart,
+  showButton,
 }) {
   return (
     <>
@@ -43,11 +44,13 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="/contact">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
-                    {buttonLabel}
-                  </Button>
-                </Link>
+                {showButton && ( // использовать showButton для условного рендеринга кнопки
+                  <Link to="/products">
+                    <Button buttonSize="btn--wide" buttonColor="blue">
+                      {buttonLabel}
+                    </Button>
+                  </Link>
+                )}
               </div>
             </div>
             <div className="col">
